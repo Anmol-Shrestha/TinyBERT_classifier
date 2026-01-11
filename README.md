@@ -168,9 +168,4 @@ This project showcases how **compact transformer models like TinyBERT** can deli
 
 ---
 
-## 📎 Future Improvements
 
-- Hyperparameter tuning
-- Domain-specific pretraining (e.g., financial sentiment)
-- Model distillation comparison
-- Explainability (attention visualization)
