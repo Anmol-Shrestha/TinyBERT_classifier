@@ -1,5 +1,9 @@
 # TinyBERT Sentiment Analysis (Binary Classification)
 
+If you just want to know how data was transformed and how transformers were used go to 
+[Data Transformation & Transformer Usage](transformers-usage.md)
+
+
 This project demonstrates **fine-tuning TinyBERT for binary sentiment classification (Positive / Negative)** using the Hugging Face ecosystem. The goal is to build a **lightweight, efficient NLP model** suitable for real-world and production-oriented use cases.
 
 ---
@@ -43,7 +47,6 @@ This project demonstrates **fine-tuning TinyBERT for binary sentiment classifica
 ### Model
 - **`AutoModelForSequenceClassification`**
 - Pretrained TinyBERT backbone
-- Binary classification head
 - Configured with:
   - `num_labels = 2`
   - `label2id`
@@ -62,7 +65,7 @@ This project demonstrates **fine-tuning TinyBERT for binary sentiment classifica
 | Train Batch Size | 32 |
 | Eval Batch Size | 32 |
 | Evaluation Strategy | epoch |
-| Logging | Disabled (`report_to="none"`) |
+| report to | none |
 
 ---
 
